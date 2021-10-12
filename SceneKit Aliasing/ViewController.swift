@@ -21,7 +21,8 @@ class ViewController: UIViewController {
         
         sceneView.autoenablesDefaultLighting = true
         
-        SceneKitAssetLoader.loadAssetFromFile(named: "Solar Panels", arView: sceneView){ object in
+        
+        SceneKitAssetLoader.loadAssetFromFile(named: "boombox", arView: sceneView){ object in
             self.sceneView.scene.rootNode.addChildNode(object)
             
             //Place the object 1m in front and 1m below where the camera was when the session began.
