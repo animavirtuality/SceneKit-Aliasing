@@ -13,6 +13,8 @@
 		557EE1D62715D9A10042E17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EE1D42715D9A10042E17E /* Main.storyboard */; };
 		557EE1D82715D9A20042E17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557EE1D72715D9A20042E17E /* Assets.xcassets */; };
 		557EE1DB2715D9A20042E17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EE1D92715D9A20042E17E /* LaunchScreen.storyboard */; };
+		557EE1E22715DA6A0042E17E /* SceneKitAssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EE1E12715DA6A0042E17E /* SceneKitAssetLoader.swift */; };
+		557EE1E82715E04A0042E17E /* Solar Panels.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 557EE1E72715E04A0042E17E /* Solar Panels.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		557EE1D52715D9A10042E17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		557EE1D72715D9A20042E17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557EE1DA2715D9A20042E17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557EE1E12715DA6A0042E17E /* SceneKitAssetLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKitAssetLoader.swift; sourceTree = "<group>"; };
+		557EE1E72715E04A0042E17E /* Solar Panels.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Solar Panels.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				557EE1CE2715D9A10042E17E /* AppDelegate.swift */,
 				557EE1D02715D9A10042E17E /* art.scnassets */,
 				557EE1D22715D9A10042E17E /* ViewController.swift */,
+				557EE1E12715DA6A0042E17E /* SceneKitAssetLoader.swift */,
+				557EE1E72715E04A0042E17E /* Solar Panels.usdz */,
 				557EE1D42715D9A10042E17E /* Main.storyboard */,
 				557EE1D72715D9A20042E17E /* Assets.xcassets */,
 				557EE1D92715D9A20042E17E /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				557EE1D12715D9A10042E17E /* art.scnassets in Resources */,
 				557EE1DB2715D9A20042E17E /* LaunchScreen.storyboard in Resources */,
 				557EE1D82715D9A20042E17E /* Assets.xcassets in Resources */,
+				557EE1E82715E04A0042E17E /* Solar Panels.usdz in Resources */,
 				557EE1D62715D9A10042E17E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557EE1E22715DA6A0042E17E /* SceneKitAssetLoader.swift in Sources */,
 				557EE1D32715D9A10042E17E /* ViewController.swift in Sources */,
 				557EE1CF2715D9A10042E17E /* AppDelegate.swift in Sources */,
 			);
@@ -215,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
